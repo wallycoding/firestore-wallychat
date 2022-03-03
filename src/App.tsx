@@ -62,7 +62,7 @@ function App() {
   };
 
   return (
-    <div className="mx-auto flex flex-col h-screen w-screen bg-gray-900">
+    <div className={`mx-auto flex flex-col h-screen w-screen bg-gray-900`}>
       <div
         className={`max-w-[1000px] mx-auto flex flex-col h-screen w-screen p-2 justify-start`}
       >
@@ -71,7 +71,7 @@ function App() {
             <input
               value={author}
               onChange={changeTexWithCallback(setAuthor)}
-              className={`flex mr-2 rounded-md bg-gray-700 outline-none p-2 text-white text-lg m-2 min-w-[400px]`}
+              className={`flex mr-2 rounded-md bg-gray-700 outline-none p-2 text-white text-lg m-2 min-w-[350px]`}
             />
             <button
               onClick={() => {
